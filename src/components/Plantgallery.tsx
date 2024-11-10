@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Plantgallery = () => {
   return (
@@ -8,22 +9,22 @@ const Plantgallery = () => {
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="/plant1.jpeg" alt="Plant 1" className="w-full h-48 object-cover" />
+            <Image src="/plant1.jpeg" alt="Plant 1" className="w-full h-48 object-cover" />
           </div>
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="/plant2.jpeg" alt="Plant 2" className="w-full h-48 object-cover" />
+            <Image src="/plant2.jpeg" alt="Plant 2" className="w-full h-48 object-cover" />
           </div>
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="/plant3.jpeg" alt="Plant 3" className="w-full h-48 object-cover" />
+            <Image src="/plant3.jpeg" alt="Plant 3" className="w-full h-48 object-cover" />
           </div>
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="/plant4.jpeg" alt="Plant 4" className="w-full h-48 object-cover" />
+            <Image src="/plant4.jpeg" alt="Plant 4" className="w-full h-48 object-cover" />
           </div>
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="/plant5.jpeg" alt="Plant 5" className="w-full h-48 object-cover" />
+            <Image src="/plant5.jpeg" alt="Plant 5" className="w-full h-48 object-cover" />
           </div>
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="/plant6.jpeg" alt="Plant 6" className="w-full h-48 object-cover" />
+            <Image src="/plant6.jpeg" alt="Plant 6" className="w-full h-48 object-cover" />
           </div>
         </div>
       </div>

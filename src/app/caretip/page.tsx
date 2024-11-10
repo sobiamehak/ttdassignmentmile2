@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Plants = () => {
   return (
@@ -7,7 +8,7 @@ const Plants = () => {
         
         
         <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg p-6">
-          <img src="/snakeplant.jpeg" alt="Snake Plant" className="w-full md:w-1/3 h-64 object-cover rounded-lg" />
+          <Image src="/snakeplant.jpeg" alt="Snake Plant" className="w-full md:w-1/3 h-64 object-cover rounded-lg" />
           <div className="md:ml-8 mt-4 md:mt-0">
             <h3 className="text-2xl font-bold text-green-800">Snake Plant (Sansevieria)</h3>
             <p className="text-gray-700 mt-2">Light: Low to bright indirect light</p>
@@ -18,7 +19,7 @@ const Plants = () => {
 
         
         <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg p-6">
-          <img src="/monstera.webp" alt="Monstera" className="w-full md:w-1/3 h-64 object-cover rounded-lg" />
+          <Image src="/monstera.webp" alt="Monstera" className="w-full md:w-1/3 h-64 object-cover rounded-lg" />
           <div className="md:ml-8 mt-4 md:mt-0">
             <h3 className="text-2xl font-bold text-green-800">Monstera (Monstera deliciosa)</h3>
             <p className="text-gray-700 mt-2">Light: Bright indirect light</p>
@@ -29,7 +30,7 @@ const Plants = () => {
 
 
         <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg p-6">
-          <img src="/aloevera.jpeg" alt="Aloe Vera" className="w-full md:w-1/3 h-64 object-cover rounded-lg" />
+          <Image src="/aloevera.jpeg" alt="Aloe Vera" className="w-full md:w-1/3 h-64 object-cover rounded-lg" />
           <div className="md:ml-8 mt-4 md:mt-0">
             <h3 className="text-2xl font-bold text-green-800">Aloe Vera (Aloe barbadensis miller)</h3>
             <p className="text-gray-700 mt-2">Light: Bright, direct sunlight</p>
